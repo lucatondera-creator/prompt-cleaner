@@ -1,0 +1,5 @@
+{
+  "name": "prompt-aufraeumer",
+  "owner": { "name": "lucatondera-creator" },
+  "plugins": [{ "name": "prompt-aufraeumer", "source": "./" }]
+}

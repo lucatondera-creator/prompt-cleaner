@@ -1,0 +1,20 @@
+{
+  "name": "prompt-aufraeumer",
+  "version": "0.2.0",
+  "description": "Zeigt über der Eingabeleiste einen Aufräumen-Button, sobald der getippte oder diktierte Text lang wird, und strukturiert ihn vor dem Senden zu einem sauberen Prompt.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "schwelle": {
+      "type": "number",
+      "title": "Schwelle (Zeichen)",
+      "description": "Ab so vielen Zeichen im Entwurf erscheint das Aufräumen-Band.",
+      "default": 200
+    },
+    "modell": {
+      "type": "string",
+      "title": "Modell fürs Aufräumen",
+      "description": "Alias oder Modell-ID, mit der der Entwurf aufgeräumt wird.",
+      "default": "sonnet"
+    }
+  }
+}
